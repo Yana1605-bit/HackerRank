@@ -24,17 +24,15 @@ class Result
 
     public static long aVeryBigSum(List<long> ar)
     {
-        long[] arr = new long[ar.Count];
-        
-        for (int i = 0; i < ar.Count; i++){
-            arr[i] = ar[i];
-            long sum = arr.Sum();
-            Console.WriteLine(sum);
+        long sum = 0;
+
+        for (int i = 0; i < ar.Count; i++)
+        {
+            sum += ar[i];
         }
-        
-        return ar.Count;
+
+        return sum;
     }
-     
 }
 
 
