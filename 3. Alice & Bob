@@ -29,7 +29,7 @@ class Result
         int Alice = 0;
         int Bob = 0;
         
-        for (int i = 0; i < Math.Min(a.Count, b.Count); i++){
+        for (int i = 0; i < 3; i++){
             if (a[i] > b[i]){
                 Alice++;
             } else if (a[i] < b[i]){
