@@ -23,14 +23,15 @@ class Result
 
     public static void miniMaxSum(List<int> arr)
     {
-        var sum = new List<int>();
-
-        foreach(int i in arr){
-            int addSum = arr.Sum();
-            sum.Add(addSum - i);
+        var Sum = new List<int>();
+        int arrSum = arr.Sum();
+        
+        foreach (int num in arr)
+        {
+            Sum.Add(arrSum - num); 
         }
-
-        Console.WriteLine($"{sum.Min()} {sum.Max()}");
+        
+        Console.WriteLine($"{Sum.Min()} {Sum.Max()}");
     }
 }
 
