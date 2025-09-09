@@ -25,25 +25,24 @@ class Result
     public static List<int> breakingRecords(List<int> scores)
     {
         int highScore = scores[0];
-    int lowScore = scores[0];
-    int highRecord = 0;
-    int lowRecord = 0;
+        int lowScore = scores[0];
+        int highRecord = 0;
+        int lowRecord = 0;
 
-    for (int i = 1; i < scores.Count; i++)
-    {
-        if (scores[i] > highScore)
+        for (int i = 1; i < scores.Count; i++)
         {
-            highScore = scores[i];
-            highRecord++;
+            if (scores[i] > highScore)
+            {
+                highScore = scores[i];
+                highRecord++;
+            }
+            else if (scores[i] < lowScore)
+            {
+                lowScore = scores[i];
+                lowRecord++;
+            }
         }
-        else if (scores[i] < lowScore)
-        {
-            lowScore = scores[i];
-            lowRecord++;
-        }
-    }
-
-    return new List<int> { highRecord, lowRecord };;
+        return new List<int> { highRecord, lowRecord };;
     }
 }
 
