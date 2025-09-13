@@ -26,17 +26,17 @@ class Result
 
     public static string angryProfessor(int k, List<int> a)
     {
-        int arrivalTime = 0;
+        int arrived = 0;
 
-        foreach (int ontime in a)
+        foreach (int arrivalTime in a)
         {
-            if (ontime <= 0)
+            if (arrivalTime <= 0)
             {
-                arrivalTime++;
+                arrived++;
             }
         }
 
-        if (arrivalTime >= k)
+        if (arrived >= k)
         {
             return "NO";  
         }
