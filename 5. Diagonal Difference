@@ -40,11 +40,17 @@ class Result
                 {
                     second += arr[i][j];
                 }
-                
             }
-            
         }
-        return arr.Count;
+
+        int diff = first - second;
+
+        if (diff < 0)
+        {
+            diff = -diff; 
+        }
+
+        return diff;
     }
 }
 
