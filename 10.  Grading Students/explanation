@@ -1,0 +1,8 @@
+This function is about grading students for rounding students grades according to the rules: If the difference between the grade and 
+the next multiple of 5 is less than 3, round grade up to the next multiple of 5. 
+If the value of grade is less than 38, no rounding occurs as the result will still be a failing grade. 
+First is to create a new list for storing the final grades after rounding it. Using a foreach loop for each 
+student grade in the list. Next is using if-else statement to check if the grade is failing. If yes, no rounding grade, and 
+add the grade to result. After that, find the next multiple of 5 after the current grade. Next is using if-else again to 
+check if the difference between the next multiple of 5 and the grade is less than 3. If yes, round up to that multiple by adding it to result. 
+Else, if the difference is 3 or more, keep the original grade. And then, after applying rounding rules, it will return to the list of grades.
