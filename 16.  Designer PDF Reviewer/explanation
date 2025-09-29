@@ -1,0 +1,7 @@
+In this function, ask to calculate the highlighted area of a word in a PDF viewer. Each lowercase letter 
+a–z has a given height (h[0] to h[25]).It has a width = number of letters, height = tallest letter in the word. 
+Return the area of the highlighted rectangle. Initialize "int height = 0;", a variable for storing the 
+tallest letter height in the word. Using foreach loop for each character "w" in the word. The "int index 
+= w - 'a';" is for converting the character to an index between 0–25 corresponding to a–z. Next is the if 
+statement to check if the current letter’s height is greater than the tallest found so far. "height = h[index];", 
+if yes, update height to the current letter’s height. After calculating the area of the rectangle's height and width it will return the area.
