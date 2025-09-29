@@ -1,0 +1,9 @@
+This function ask to track how many times a player breaks their lowest and highest score records. 
+It needs to count how many times the player scores higher than all previous scores (high record) and lower than all 
+previous scores (low record). The "int highScore = scores[0];", and "int lowScore = scores[0];" initializes the highest 
+and lowest scores. While the "int highRecord = 0;" and "int lowRecord = 0;" initialize counters for the number of times 
+the high and low records are broken. Using a for loop for loops in the scores starting on the second game. 
+If-else statement will be use here to check "if (scores[i] > highScore)" if the current score is higher than the current 
+high score, update the high score and increment the high record counter. Else if the current score is lower than the 
+current low score, update the low score and increment the low record counter. After that it will return to the list containing 
+the number of times high and low records were broken.
