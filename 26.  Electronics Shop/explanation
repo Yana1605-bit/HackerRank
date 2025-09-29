@@ -1,0 +1,8 @@
+The program needs to determine the maximum amount of money you can spend to buy one keyboard and 
+one USB drive without exceeding a budget b. To solve this, initialize first the variable to store 
+the maximum amount spent. The -1 is used if no combination is affordable. Using the foreach loop 
+for each keyboard price. Another foreach loop will be used for each USB drive price for the current 
+keyboard. The "int totalCost = k + d;" is for calculating the the total cost of the current keyboard
+and drive combination. The If statement to check if the total cost is within the budget and higher
+than any previous combination. "maxSpent = totalCost;" for updated maxSpent if the current 
+combination is better.And lastly, after checking all of this it will return to the maximum amount spent.
