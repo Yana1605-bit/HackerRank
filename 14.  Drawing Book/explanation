@@ -1,0 +1,7 @@
+The problem is to find he minimum number of pages to turn to reach a target page in a book. 
+This problem provides the total number of pages n and the target page p, return the minimum turns needed. 
+The "int frontP = p / 2;" will calculates the number of turns from the front. And each page turn flips 2 
+pages (left and right) and will divide it by 2 gives the turns. "int backP = (n / 2) - (p / 2);" for 
+calculating the number of turns from the back. The n/2 gives total turns to reach the end and the subtract 
+p/2 to find turns from the back to page p. Using if-else statement, to compare which direction requires fewer 
+turns. If turning from the front is less, return that number of turns. Else, it return the number of turns from the back.
