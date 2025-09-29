@@ -1,0 +1,7 @@
+This program has a function named Simple Array Sum, which is to compute the sum of all integers on the provided 
+list and needs to add up all the numbers in a list and return the total. It takes a single parameter and represents the input
+integers, List<int> arr. The first step I do is declaring and initializing 
+the integer variable "n" to 0 to track or check the total. Then, a foreach loop for each number in the list one
+by one and calling the current number "arr." For every arr, it adds it to n using n += arr, which means adding arr to n 
+and updating n. Once this looping is finished checking all 
+numbers, the function will return the final value of n as the sum.
