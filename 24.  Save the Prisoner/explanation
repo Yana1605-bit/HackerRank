@@ -1,0 +1,6 @@
+In this problem it needs to determine which prisoner will receive the last candy. It provide that 
+there are n prisoners sitting in a circle. And m candies are distributed sequentially starting from 
+prisoner s. And return the number of the prisoner who receives the last candy. The "int lastCandy = (s + 
+m - 1) % n;" is for calculating the position of the last candy using modulo. Next, using if-else 
+statement, to check if modulo result is 0, it means the last candy lands on the last prisoner (n) in the circle. 
+And it will return to the last prisoner's number if the modulo is 0. Else, it will return to the calculated position as the prisoner who gets the last candy.
