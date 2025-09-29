@@ -1,0 +1,4 @@
+birthdayCakeCandles is the function name on this program and it needs to find how many candles have the maximum height. The list of candle heights is given, and it needs to count how many candles are tall. 
+To find the tallest candle height, initialize the "int arr = candles.Max();" and "int tCandles = 0;", to track how many candles are tall. 
+Using foreach loop for each candle height in the list. Next is using if statement to check if the current candle's height equals the tallest height. 
+And if the cancle is tallest it will increment by 1. After checking all the candle's height, it will return the count of the tallest candle.
