@@ -1,0 +1,4 @@
+The function Utopian Tree needs to calculate the height of a tree after n growth cycles. 
+First, initialize the height of the tree to 1 meter. Now create a looping for each growing cycle 
+from 0 to n - 1. Using if-else statement to check if the cycle number is even (spring), double the height. 
+Else, if the cycle number is odd (summer), increase the height by 1. And then it will return to the final height after all cycles.
