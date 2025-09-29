@@ -1,0 +1,5 @@
+This function problem named compareTriplets needs to compare the two lists of three numbers each for Alice (a)
+and Bob (b) to show who has more points. To solve this, declare it first and start with zero: "Alice = 0;" and "Bob = 0." 
+Next is a for loop to check each pair of numbers at the same position. So, if Alice's number (a[i]) is bigger than Bob's (b[i]), 
+then Alice gets a point (Alice++). But, if Bob (b[i]) is bigger than Alice, Bob has a point 
+(Bob++). Lastly, it returns a new list with just the two scores (return List<int> {Alice, Bob};).
