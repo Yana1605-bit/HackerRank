@@ -1,0 +1,5 @@
+This function named Staircase, need to print the right-alignment of staircase in # symbols with n steps and each steps has spaces on the left and 
+hashes on the right to form like a staircase. To solve this problem, using for loop, for the outer loop is for the rows of the staircase and the "i" 
+represents the current row number and the inner loop is for the spaces on the left. Each row has spaces to align the staircase. The "Console.Write(" ");" 
+is for the single space without moving to a new line. The second inner loop is for # and each row prints "i" hashes. While the "Console.Write("#");" 
+is for single hash without moving to a new line. Last is the "Console.WriteLine();" to move it to the next line after the spaces and hashes for current row.
