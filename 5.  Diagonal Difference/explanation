@@ -1,0 +1,7 @@
+In this function named diagonalDifference, it needs to find the positive difference between the sum of the numbers on the grid's top-left-to-bottom-right 
+line and the sum of the numbers on the top-right-to-bottom-left line. To make a code for this, first is to initialize the size "int n = arr.Count;", 
+the primary diagonal "int first = 0;", and the secondary diagonal "int second = 0;". I used two loops for row(i) 
+and row(j) to check every single number. If the row (i) equals the column (j), then the number is on the primary diagonal. 
+It's added to the first total. But, if the row (i) plus the column (j) equals n−1, the number is on the secondary diagonal. 
+It's added to the second total. Lastly, it calculates the difference by subtracting second from first. 
+If the difference is a negative number, the code makes it positive. Then it will print the final positive difference.
