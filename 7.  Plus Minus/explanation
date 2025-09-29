@@ -1,0 +1,7 @@
+In this problem, the function need to calculate the fractions of positive, negative, and zero elements in an array. 
+Initialize first using float because the result will give a decimal in division. 
+The "float positive = 0;",  "float negative = 0;", and "float zero = 0;". 
+Using foreach loop for each number in the array. Next is if-else statement to check if the number is positive, and if it is a positive it will increment 
+by 1, same with the negative and zero, if it is a negative or zero, it will increment by 1. After that, 
+calculate them "pstv = positive / arr.Count", "ngtv = negative / arr.Count", and the zr = zero / arr.Count. 
+It will now print the result each fraction with separated line.
