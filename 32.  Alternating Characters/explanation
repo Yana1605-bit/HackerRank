@@ -1,0 +1,8 @@
+This function needs to complete and determine the minimum number of deletions required so that 
+no two adjacent characters are the same in a string. The string s consisting of letters like A 
+and B is given. And it must delete characters until there are no consecutive repeating characters. 
+To finish this function, first is to initialize the "int deletions = 0;" this is for counter to store 
+the number of deletions required. Using for loop for the string starting from the second character 
+(i = 1). Next is the if statement to check if the current character is the same as the previous one. 
+But if two consecutive characters are the same, increment the deletion counter. Lastly, after checking 
+all of this it will return to the total number of deletions needed.
