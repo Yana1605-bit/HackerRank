@@ -1,0 +1,5 @@
+The program ask to calculate and find the minimum and maximum of sum in an array. It must sum all the numbers except one at a time and then find the smallest and largest sum. 
+First, is to initialize the sum "var Sum = new List<int>();" and for the total sum of all elements in an array "int arrSum = arr.Sum();". 
+Next, using a foreach loop for loop each number in the array and then "Sum.Add(arrSum - num);" 
+this is for each number that will subtract it from the total sum and it gives the remaining numbers. And lastly, after finding the smallest and largest sum, 
+the "Console.WriteLine($"{Sum.Min()} {Sum.Max()}");" prints them separated by a space and the program will end.
