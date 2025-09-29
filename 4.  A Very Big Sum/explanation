@@ -1,0 +1,7 @@
+The program wants to finish the function by naming the function aVeryBigSum, and it must return the sum. 
+To solve this, first initialize the "long sum = 0;" and "i = 0" for looping. Next is to check "i < ar.Count" 
+to see if the loop should execute another iteration or not. Because "ar.Count" represents the total 
+number of elements in the list. The looping will continue only if the "ar.Count" is less than the count. 
+If the condition is "yes," the process will execute the "sum += ar." The index i is 
+incremented by 1, preparing the loop to check the next element. But if it is 
+false, it will go directly to "return sum," and the process will end here.
