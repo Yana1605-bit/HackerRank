@@ -1,0 +1,7 @@
+In this problem, it needs to determine which cat reaches the mouse first, or if the mouse escapes. "Cat A" if Cat 
+A reaches first, "Cat B" if Cat B reaches first, "Mouse C" if both cats reach the mouse at the same time. "int distA 
+= x - z;" and "int distB = y - z;" is for calculating the distance from Calculate the distance from Cat A and Cat B 
+to the mouse.  The "if (distA < 0) distA = -distA;" will convert distA to absolute value to get true distance. "if 
+(distB < 0) distB = -distB;" will also convert distB to absolute value. While the "if (distA < distB)", for checking 
+if Cat A is closer, return "Cat A". Else if, If Cat B is closer, return "Cat B". Else, if both distances are equal, 
+the mouse escapes, return "Mouse C". It will now print the result.
