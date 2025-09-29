@@ -1,0 +1,6 @@
+The problem ask to count the number of pairs (i, j), in an array. First is to initialize "int numPairs = 0;", 
+it is a counter to track the number of divisible pairs. Using for loops, for outer loop "for (int i = 0; i < n - 1; i++)" 
+for loops each elements in the array except the last one. The "for (int j = i + 1; j < n; j++)" is for inner loop 
+of all elements after "i" and the "j" represents the second element of the pair. Using if statement for "if 
+((ar[i] + ar[j]) % k == 0)" checking if the sum of the pair is divisible by k and if it is divisible by k, it will 
+increment by 1. After checking all the possible pairs, it will return on the total count of divisible pairs.
