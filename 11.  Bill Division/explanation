@@ -1,0 +1,8 @@
+The Bon Appetit ask to determine if a bill was split fairly between the two friends. "bill" is for the list of item prices, "k" 
+is for the one person who didn't eat, and "b" is the amount that 
+one person actually paid. To solve this, initialize first the variable "var total = 0;" to hold the sum of the items 
+that the friend actually ate. For loop for loops of all items in the bill. Using if statement, to check if 
+the current item is not the one the friend didn’t eat. Next is the "total += bill[i];" that adds the price of 
+items the friend ate to the total. The "int fairShare = total / 2;" divides the total cost of eaten items 
+equally between two friends. After that, using a if-else statement to check if the amount paid b equals the fair share. 
+If yes, print “Bon Appetit”. Else, If the amount is more than fair share, it will print the extra amount that was overpaid.
