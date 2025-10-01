@@ -1,0 +1,6 @@
+The function name in this problem called miniMaxSum. This function has one value, a list "arr".
+The solution on the problem must print the minimum sum and the maximum sum using exactly four 
+out of five integers. First step to solve this is to calculate the total sum of all numbers in the list.
+Next, finding the smallest value using "arr.Min()" and the largest value using "arr.Max()".
+Then subtract the largest value from the total to get the minimum sum, and subtracted the smallest 
+value from the total to get the maximum sum. For the result, I printed both sums together.
