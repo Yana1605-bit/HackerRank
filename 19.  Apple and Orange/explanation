@@ -1,0 +1,7 @@
+In this problem in the HacerkRank, the function name is countApplesAndOranges and this function has six 
+values which are s, t, a, b, apples, and oranges. Based on this problem, the solution must print how 
+many apples and oranges fall on Sam’s house. First is to set two counters "appleCount" and "orangeCount". 
+Then I add a loop for each apple, added its distance to the apple tree position a, and checked if it landed 
+between s and t. If yes, it will increased the apple counter. I did the same for the oranges, adding each 
+distance to the orange tree position b, and counted the ones that landed on the house. Lastly, I printed 
+the number of apples and oranges that landed on Sam’s house.
