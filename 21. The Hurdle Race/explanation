@@ -1,0 +1,6 @@
+In this problem the function name called hurdleRace The function has two given values, which are k and height. 
+The solution must return how many doses of a magic potion the character needs to jump the highest hurdle. 
+To finish the program, first, look for the tallest hurdle by looping through all the heights and keeping 
+the maximum value. Next, I add subtraction on the character’s jump height k from the maximum hurdle height. 
+If the result was less than zero, that means no potion is needed, so it is set to 0. And finally, I returned 
+the number of doses needed.
