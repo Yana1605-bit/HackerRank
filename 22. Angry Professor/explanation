@@ -1,0 +1,5 @@
+On this program, the function has two given values "k" and "a". The solution must return "YES" if the 
+class is canceled, or "NO" if the class continues. To solve this, first, count how many students arrived 
+on time or early by checking if their arrival time was less than or equal to 0. Next is compare the number 
+of students who arrived on time with the required number k. If the arrived students are greater than or 
+equal to k, the class will continue, it will return "NO". But if the class is canceled, it is "YES".
