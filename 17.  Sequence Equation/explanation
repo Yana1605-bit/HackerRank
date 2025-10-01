@@ -1,0 +1,5 @@
+In this problem the function name is called permutationEquation and this function takes one value, a list "p". 
+Based on this problem, the solution must return a list of integers. To solve this, I first created "int n = p.Count;", 
+new list for result, and an array called "pstv" that stores the positions of each number in the list. Next step , 
+I looped through the numbers from 1 up to n. For each number "x", I looked up its position in "pstv", and then I 
+looked up the position of that position. Lastly, I added the result into a list and returned that list at the end.
