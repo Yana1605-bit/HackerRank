@@ -1,0 +1,6 @@
+The function name in HackerRank problem called countingValleys that has two given values "steps" 
+and "path" and the solution must return the number of valleys a hiker walked through. To solve this, 
+first is to initialize "int seaLevel = 0;", and "int valleys = 0;". Then I add a loop for the path, 
+if the step is "U", I increase the sea level, and if the step brings the hiker back to sea level, I 
+add one to the valley counter. But if the step is "D", it will increase the sea level. And finally 
+it will return to the total number of valleys.
