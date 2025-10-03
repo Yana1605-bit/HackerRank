@@ -1,0 +1,8 @@
+dayOfProgrammer is the function name in this problem and has only one value "year". And the 
+solution must return the exact date of the 256th day of that year. First checked if the year 
+is 1918, because that year Russia switched from the Julian calendar to the Gregorian calendar, 
+and the answer is fixed as "26.09.1918". If the year is before 1918 (Julian calendar), then any 
+year divisible by 4 is a leap year, so the date is "12.09.year", but if it is "13.09.year". If 
+the year is after 1918 (Gregorian calendar), then a leap year is determined if the year is divisible 
+by 400, or divisible by 4 but not by 100, in that case the date is "12.09.year", otherwise "13.09.year". 
+And, it will return the date as a string.
