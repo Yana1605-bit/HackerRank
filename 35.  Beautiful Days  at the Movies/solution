@@ -1,0 +1,4 @@
+This problem has a function name called beautifulDays and it has three given values, i, j, and k.
+The solution must return how many days are considered beautiful. To solve the function, I used loop from 
+day i to day j. For each day, to reverse its digits it needs to subtract from the original number.
+If the absolute difference is divisible by k, it will increase the counter. Lastly, I returned the total count of beautiful days.
