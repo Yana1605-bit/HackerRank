@@ -1,0 +1,6 @@
+In the HackerRank problem has a function name called findDigits and has only one value 'n'. 
+The solution must return how many digits of n evenly divide n. First, made a coopy of "n" 
+called "num". Then, i used while loop for each step, and it will use the last digit using 
+"num % 10". If the digit is not zero and n is divisible by that digit, then it will increase 
+the counter. After checking, it will remove the last digit by dividing num by 10. And the 
+result, it will return to the total count of digits.
