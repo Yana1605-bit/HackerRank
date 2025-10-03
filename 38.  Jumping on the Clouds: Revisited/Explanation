@@ -1,0 +1,5 @@
+The jumpingOnClouds is the function name, and it has two parameters c
+and k. The player starts with 100 energy at position 0.
+Each jump moves the player by (position + k) % n. Energy decreases by 1 for a safe cloud or 3
+for a thundercloud. I add the loop to continue until the player returns to position 0, and then the 
+function returns the remaining energy.
