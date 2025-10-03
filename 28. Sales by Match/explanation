@@ -1,4 +1,6 @@
 sockMerchant is the function name in this problem and this function has two values "n" and "ar".
-Based on the problem, the solution must return the number of matching pairs of socks. To solve this, I first sorted the list "ar" so that socks of the same color are next to each other.
-Then I used a for loop to check each sock with the next one. If two socks are the same, it will increase the pairs counter and skipped the next index because that sock was already paired.
+Based on the problem, the solution must return the number of matching pairs of socks. To solve this, 
+I first sorted the list "ar" so that socks of the same color are next to each other.
+Then I used a for loop to check each sock with the next one. If two socks are the same, it will 
+increase the pairs counter and skipped the next index because that sock was already paired.
 Finally, it will return the total number of pairs for the result.
