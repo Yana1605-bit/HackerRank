@@ -1,0 +1,8 @@
+In this problem the function name is minimumDistances and has one value, "a". The solution must return the 
+minimum distance between two equal elements in the list, or -1 if no such pair exists. To finish this prblem, 
+I first set minDis to the maximum integer value to keep track of the smallest distance found. Then I used two 
+nested for loops: the outer loop goes through each element, and the inner loop compares it with the elements after it.
+If the two elements are the same, calculate the distance between their positions. If this distance is smaller than 
+the current minDis, I updated minDis with the new value. After checking all pairs, if minDis is still the maximum 
+integer value, that means no equal elements were found, so it will returned -1. But if the minDis is not it returned 
+the minimum distance found.
