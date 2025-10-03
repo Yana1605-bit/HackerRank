@@ -1,0 +1,7 @@
+The function name of this problem called minimumNumber. It has two given values which are n and password. 
+The solution must return the minimum number of characters that need to be added to make the password strong. 
+To solve this, create a four groups of characters like numbers, owercase letters, uppercase letters, and 
+special characters. Then, each character in password will be check to see if this character is belonged to 
+one of those groups, and it will marked the password if it already had that type of character. After that, 
+it will compare the number of missing types with the required password length of 6. And lastly, it will 
+returned which value is greater.
