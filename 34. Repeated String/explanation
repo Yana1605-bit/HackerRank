@@ -1,0 +1,6 @@
+This function has two given values, s and n, and it is called repeatedString.  The solution must return 
+how many times the letter 'a' appears in the first n characters of the infinite string formed by repeating s. 
+To solve the function, I first count how many 'a' characters are in the string s.
+Then calculate how many full times s repeats in n, and multiplied that by the count of 'a'.
+After that,  Ichecked the remaining characters using n % s.Length and added any extra 'a' found.
+Lastly, I returned the total count for the result.
