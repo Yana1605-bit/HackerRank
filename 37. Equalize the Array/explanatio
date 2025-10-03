@@ -1,0 +1,5 @@
+The equalizeArray function solves the problem of finding the minimum number of deletions needed to make all elements in an array equal. To solve this,
+First, the array is sorted so that identical numbers are grouped together. Then, the program counts the frequency of each number while keeping 
+track of the highest frequency found. Since the optimal solution is to keep the number that 
+appears most often and remove all others, the minimum deletions required are calculated as the total 
+number of elements in the array minus the highest frequency. Lastly, the result is returned.
