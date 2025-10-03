@@ -1,0 +1,5 @@
+In this problem, the function name is jumpingOnClouds, and it has only one value, a list c. The solution 
+must return the smallest number the minimum number of jump to reach the last cloud. To solve the function, I began 
+with the first cloud and used a while loop to reach the last one. At each step, I calculated if it could 
+safely jump two clouds ahead, if yes, I moved 2, otherwise, I moved one. Each move raised the jump counter.
+And finally returned the total number of leaps.
