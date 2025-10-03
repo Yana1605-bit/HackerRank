@@ -1,0 +1,4 @@
+The function in the problem in HackerRank that gave me is called beautifulTriplets. this function has two values "d" and "arr".
+The solution must return how many triplets (a, b, c) exist such that b = a + d and c = a + 2d. To solve the function, 
+I use looping through each element a in the list, then calculated b and c. If both values are found in the list, 
+it will increas the counter. And lastly, I returned the total number of beautiful triplets for the result.
