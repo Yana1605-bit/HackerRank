@@ -1,0 +1,4 @@
+The problem that HackerRank gave me is called Cut the Sticks. In this problem the function name is cutTheSticks and has one value "arr".
+The solution must return how many sticks are cut in each round until no sticks remain. To solve the function, I used a while loop. 
+In each loop, I added the current number of sticks to the result, found the smallest stick, subtracted it from all sticks, and removed 
+the ones that became zero. Lastly, I returned the result list.
